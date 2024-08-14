@@ -1,0 +1,17 @@
+.movie {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+  place-items: center;
+}
+
+.movie img {
+  max-width: 100%;
+  min-height: 100%;
+  opacity: 0.6;
+}
+
+.movie img:hover {
+  opacity: 1;
+  transition: 0.7s;
+}
